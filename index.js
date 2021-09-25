@@ -31,7 +31,7 @@ let details = [
     }
 ]
 details.forEach((e)=>{
-    e.car = e.carAndmodel.split(" ")[0]
+    // e.car = e.carAndmodel.split(" ")[0]
     e.model = e.carAndmodel.split(" ")[1]
 })
 console.log(details)
